@@ -22,7 +22,6 @@ public class SearchSteps {
 	public void i_search_for_a_product_with_name_and_price(String productName, Integer price) {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println("Step 2: Search the product with name: " + productName + " price: " + price);
-	   
 	    //Creating constructor with the same productName and price from feature file
 	    product = new Product(productName, price);
 	}
